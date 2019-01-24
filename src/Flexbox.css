@@ -1,0 +1,60 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row img{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  height: auto;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
+
+  ._45 {
+  flex: 4.5;
+}
+._40 {
+flex: 4.0;
+}
+  ._35 {
+  flex: 3.5;
+}
+  ._25 {
+  flex: 2.5;
+}
+
+._30 {
+flex: 3.0;
+}
+._50 {
+  flex: 5;
+}
+._75 {
+  flex: 7.5;
+}
+._55 {
+  flex: 5.5;
+}
+._20 {
+  flex: 2;
+}
+._33 {
+  flex: 3.3;
+}
+._34 {
+  flex: 3.4;
+}
+._66 {
+  flex: 6.6;
+}
+}
