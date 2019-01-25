@@ -30,6 +30,7 @@ renderLock(){
                 {this.renderLock()} {this.props.productName}
               </h3>
               <br />
+              <p className="m-0 p-0"><em>{this.props.description}</em></p>
               {this.renderTags()}              <br />
 
             </div>

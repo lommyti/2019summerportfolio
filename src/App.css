@@ -72,6 +72,13 @@ h3{
   margin: 0;
 }
 
+.product-name h3{
+  letter-spacing: 2px;
+  color: #5f5f5f;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 h5{
   font-weight: 400;
   width: auto;
@@ -174,7 +181,7 @@ p{
     padding: 5%;
     margin-left: 0%;
     box-shadow: 0px 10px 10px rgba(0,0,0,.15);
-    margin-top: -125px;
+    margin-top: -95px;
     z-index: -999;
     opacity: 0;
     border: 0px solid transparent;
@@ -183,7 +190,7 @@ p{
 
 .product-tile:hover .product-tile-back{
     opacity:1;
-    margin-top: -110px;
+    margin-top: -80px;
     width: 82%;
     margin-left:3%;
 }
@@ -424,4 +431,8 @@ h6{
   font-size: 16px;
   margin: 0;
   color: #606060;
+}
+
+.size-20{
+  font-size: 18px;
 }

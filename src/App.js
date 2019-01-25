@@ -60,9 +60,9 @@ class App extends Component {
           <h2>My Work</h2>
           <br/>
           <br/>
-          <ProductTile imageSource="/img/bt-cover.jpg" productName="Hosted Fields Page" handler={this.BTHandler} tags={['ui/ux', 'content', 'web dev']}/>
-          <ProductTile imageSource="/img/fcf-cover.jpg" productName="Fact-Check Flow" handler={this.FCFHandler} tags={['ui/ux']}/>
-          <ProductTile imageSource="/img/misc-cover.jpg" productName="Visual Design" handler={this.VizHandler} tags={['etc']}/>
+          <ProductTile imageSource="/img/bt-cover.jpg" productName="Hosted Fields Page" description="Braintree Summer '18" handler={this.BTHandler} tags={['ui/ux',  'web dev']}/>
+          <ProductTile imageSource="/img/fcf-cover.jpg" productName="Fact-Check Flow" description="Fact-checking turned digital." handler={this.FCFHandler} tags={['ui/ux']}/>
+          <ProductTile imageSource="/img/misc-cover.jpg" productName="Visual Design" description="One-offs & non-software work." handler={this.VizHandler} tags={['etc']}/>
         </div>
       )
     }
