@@ -6,13 +6,29 @@
   padding-right: 15px !important;
 
 }
- .linkheader a{
-   margin: 0px 8px;
- }
 
+p{
+  font-size: 18px;
+}
+
+.product-name h3{
+  font-size: 18px;
+}
+
+.linkheader a{
+  display:block;
+}
  .mobile-m-0{
    margin: 0;
  }
+ .mobile-m-5{
+   margin: 5%;
+ }
+
+ .mobile-m-10{
+   margin: 10%;
+ }
+
 
  .mobile-w-100{
    width: 100%;
@@ -28,6 +44,10 @@
 
  .mobile-top-15{
    margin-top: 15%;
+ }
+
+ .mobile-m-top-0{
+   margin-top: 0;
  }
  .mobile-bottom-10{
    margin-bottom: 19%;
@@ -64,5 +84,18 @@
  .pie{
    color: #8f8f8f;
    border: 0px solid transparent;
+ }
+
+ .mobile-no-show{
+   display: none;
+ }
+
+ .product-tile{
+   margin-bottom: 20px;
+   width: 100%;
+ }
+
+ .footer h5{
+   font-size: 20px;
  }
 }

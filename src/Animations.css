@@ -1,0 +1,63 @@
+
+@keyframes floatingAnimAlert{
+  from{
+    margin-top: 0;
+    transform: rotate(0deg);
+
+  }
+  to{
+    margin-top: 1.2%;
+  }
+}
+
+@keyframes floatingAnim{
+  from{
+    margin-top: 0;
+    transform: rotate(0deg);
+
+  }
+  to{
+    margin-top: 2%;
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes floatingAnimiPod{
+  from{
+    margin-top: 0;
+    transform: rotate(0deg);
+
+  }
+  to{
+    margin-top: 2.4%;
+    margin-left: .8%;
+    transform: rotate(-15deg);
+  }
+}
+
+
+@keyframes floatingAnimCoffee{
+  from{
+    margin-top: 0;
+    transform: rotate(0deg);
+
+  }
+  to{
+    margin-top: 2.2%;
+    margin-left: .26%;
+    transform: rotate(4deg);
+  }
+}
+
+@keyframes floatingAnimHands{
+  from{
+    margin-top: 0;
+    transform: rotate(0deg);
+
+  }
+  to{
+    margin-top: 4%;
+    margin-left: -.46%;
+    transform: rotate(15deg);
+  }
+}

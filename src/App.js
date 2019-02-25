@@ -3,14 +3,16 @@ import './App.css';
 import './Positioning.css';
 import './Flexbox.css';
 import './Mobile.css';
+import './Animations.css';
 import Footer from './Footer'
 import Homepage from './Homepage'
 import ProductTile from './ProductTile'
 import About from './About'
 import Contacts from './Contact'
 import BTPopup from './BTPopup'
-import FCFPopup from './FCFPopup.js'
+import FCFPopup from './FCFPopup'
 import VizPopup from './VizPopup'
+import AirbnbPopup from './AirbnbPopup'
 
 
 class App extends Component {
@@ -25,12 +27,51 @@ class App extends Component {
       renderBT:false,
       renderFCF:false,
       renderViz:false,
+      renderAirbnb:false,
+      renderDescs:true,
+      renderAnims:true
+
     }
     this.BTHandler = this.BTHandler.bind(this)
     this.FCFHandler = this.FCFHandler.bind(this)
     this.VizHandler = this.VizHandler.bind(this)
+    this.AirbnbHandler = this.AirbnbHandler.bind(this)
 
   }
+
+  renderDescs() {
+    if (this.state.renderDescs == true) {
+      return <div>                <p>Hey there! Call me Tommy—I'm a junior at Northwestern and an aspiring product manager/designer.
+      I love to question assumptions about people and technology to see both of them in a new light.</p><p>
+
+      Previously @ Braintree Docs.<br/>
+       Soon @ Groupon PM.</p></div>
+     }
+     else return ""
+  }
+
+
+    renderAnims() {
+      if (this.state.renderAnims == true) {
+        return <div className="w-50 mobile-no-show">
+         <div className="w-px">
+         <img src="/img/body2.png" className="illustration body" />
+         <img src="/img/ipod.png" className="illustration ipod" />
+         <img src="/img/coffee.png" className="illustration coffee" />
+         <img src="/img/hands.png" className="illustration hands" />
+         <img src="/img/hands2.png" className="illustration body" />
+
+         <div class="alert-coffee">
+           <img src="/img/alert.png" className="alert" /><br/>
+           <div className="hoverpointer"><i class="material-icons size-16 p-right-2">local_drink</i><br/>Small black coffee, no room, please! <br/> <br/><i class="material-icons size-16">music_note</i><br/>Superposition - Young the Giant</div>
+        </div>
+         <div className="hoverpointer song"></div>
+         </div>
+
+         </div>
+       }
+       else return ""
+    }
 
   renderHomepage() {
     if (this.state.renderHomepage == true) {
@@ -56,13 +97,16 @@ class App extends Component {
   renderPortfolio() {
     if (this.state.renderTiles == true) {
       return (
-        <div id="portfolio" className="w-80 m-10 m-top-0 m-bottom-0 p-top-2">
-          <h2>My Work</h2>
+        <div id="portfolio" className="w-60 m-20 mobile-m-10 mobile-w-80 m-top-0 m-bottom-0 p-top-2">
+          <h2>Portfolio</h2>
           <br/>
           <br/>
-          <ProductTile imageSource="/img/bt-cover.jpg" productName="Hosted Fields Page" description="Braintree Summer '18" handler={this.BTHandler} tags={['ui/ux',  'web dev']}/>
-          <ProductTile imageSource="/img/fcf-cover.jpg" productName="Fact-Check Flow" description="Fact-checking turned digital." handler={this.FCFHandler} tags={['ui/ux']}/>
-          <ProductTile imageSource="/img/misc-cover.jpg" productName="Visual Design" description="One-offs & non-software work." handler={this.VizHandler} tags={['etc']}/>
+          <ProductTile imageSource="/img/airbnb.png" productName="Airbnb" className="m-top-0" handler={this.AirbnbHandler} description="Rethinking the filter experience" />
+          <ProductTile imageSource="/img/braintree.png" productName="Braintree" handler={this.BTHandler} description="Hosted Fields landing page
+"/>
+          <ProductTile imageSource="/img/knightlab.png" productName="Fact-Check Flow" handler={this.FCFHandler} description="In-browser fact-checking for journalists"/>
+          <ProductTile imageSource="/img/toothless.png" productName="Visual Design"  handler={this.VizHandler} description="Assorted digital projects"/>
+
         </div>
       )
     }
@@ -90,6 +134,7 @@ else this.setState({renderBT:true,
 else this.setState({renderFCF:true,
                     renderViz:false,
                     renderBT:false,
+                    renderAirbnb:false
 })
   }
 
@@ -101,6 +146,19 @@ else this.setState({renderFCF:true,
 else this.setState({renderViz:true,
                     renderFCF:false,
                     renderBT:false,
+                    renderAirbnb:false
+})
+  }
+
+  AirbnbHandler() {
+    window.scrollTo(0,0)
+    if (this.state.renderAirbnb == true)
+ {    this.setState({renderAirbnb:false})
+}
+else this.setState({renderViz:false,
+                    renderFCF:false,
+                    renderBT:false,
+                    renderAirbnb:true
 })
   }
 
@@ -119,6 +177,9 @@ else this.setState({renderViz:true,
     renderAbout:false,
     renderContact:false,
     renderFooter:true,
+    renderDescs:true,
+    renderAnims:true,
+
 });
   }
 
@@ -128,6 +189,9 @@ else this.setState({renderViz:true,
     renderAbout:true,
     renderContact:false,
     renderFooter:false,
+    renderDescs:false,
+    renderAnims:false,
+
 });
   }
 
@@ -135,20 +199,29 @@ else this.setState({renderViz:true,
     this.setState({renderHomepage: false,
     renderTiles:false,
     renderAbout:false,
-    renderContact:true,
-    renderFooter:false,
+    renderContact:false,
+    renderFooter:true,
+    renderDescs:false,
+    renderAnims:true,
+
+
     });
   }
 
   renderHeader(){
     return(
-      <div className="w-80 m-10 m-top-2 m-bottom-0 linkheader link-arrow mobile-m-0 mobile-w-100">
-      <div class="name">  <a onClick={() => this.renderHomeHome()}>THOMAS T. LI</a></div>
-        <a onClick={() => this.renderHomeHome()}>HOME</a>
-        <a onClick={() => this.renderAboutSection()}>ABOUT</a>
-        <a href="/assets/Li_Thomas_Resume_2019.pdf" target="_blank">RESUME</a>
-        <a onClick={() => this.renderContacts()}>CONTACT</a>
-      </div>
+      <div className="w-60 m-20 m-top-5 m-bottom-0 linkheader link-arrow mobile-m-0 mobile-w-100">
+      <div className="w-50 mobile-w-80 mobile-m-10">
+       <a onClick={() => this.renderHomeHome()} className="name">Thomas Li</a><br/>
+        <a onClick={() => this.renderHomeHome()}>Home,&nbsp;</a>
+        <a onClick={() => this.renderAboutSection()}>About,&nbsp;</a>
+        <a href="/assets/Li_Thomas_Resume_2019.pdf" target="_blank"> Resume,&nbsp;</a>
+        <a onClick={() => this.renderContacts()}>Contact.</a>
+        {this.renderDescs()}
+        {this.renderContact()}
+ </div>
+ {this.renderAnims()}
+ </div>
     )
   }
 
@@ -179,11 +252,19 @@ else this.setState({renderViz:true,
       }
     }
 
+    renderAirbnbCase(){
+      if(this.state.renderAirbnb == true){
+        return <AirbnbPopup handler={this.AirbnbHandler}/>
+      }
+      else {
+        return ""
+      }
+    }
+
   render() {
     return (
       <div className="h-100">
         {this.renderHeader()}
-        {this.renderContact()}
         {this.renderHomepage()}
         {this.renderPortfolio()}
         {this.renderAbout()}
@@ -191,6 +272,7 @@ else this.setState({renderViz:true,
         {this.renderBTCase()}
         {this.renderFCFCase()}
         {this.renderVizCase()}
+        {this.renderAirbnbCase()}
 
       </div>
     );

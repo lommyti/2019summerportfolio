@@ -7,7 +7,7 @@ class FCFPopup extends Component {
         <h2>Fact-Check Flow</h2>
         <button className="close-button" onClick={this.props.handler}>×</button>
         <br/>
-        <p><em>Rethinking fact-checking for the modern digital newsroom. <br/>Supported by the <a href="https://knightlab.northwestern.edu/">Northwestern University Knight Lab.</a></em><br/><br/>
+        <p><em>Fact-checking for the modern digital newsroom. <br/>Supported by the <a href="https://knightlab.northwestern.edu/">Northwestern University Knight Lab.</a></em><br/><br/>
         Teammates: <a href="https://www.linkedin.com/in/rafahali/">Rafah Ali</a>, <a href="https://www.linkedin.com/in/laura-barrera-91a9b4122/">Laura Barrera</a>, <a href="https://www.linkedin.com/in/madeline-kaufman-2018/">Madeline Kaufman</a>, <a href="https://www.linkedin.com/in/madelinelefevour/">Madeline Lefevour</a> </p>
         <br/>
         <div className="w-30 p-10 p-top-5 p-right-5 align-right mobile-w-100">

@@ -5,13 +5,6 @@ class ProductTile extends Component {
     super(props);
   }
 
-  renderTags(){
-    var tags = []
-    for (var i = 0; i < this.props.tags.length; i++) {
-      tags.push(<div className="subject" key={i}>{this.props.tags[i]}</div>)
-    }
-    return tags
-}
 
 renderLock(){
   if (this.props.productName=="Hosted Fields Page"){
@@ -21,18 +14,15 @@ renderLock(){
 
   render() {
     return (
-        <div className="w-33 w-33-img-container h-100 pos-relative p-2 mobile-w-100 mobile-bottom-10">
+        <div className="w-50 w-33-img-container h-100 pos-relative mobile-w-100">
         <div className="product-tile">
         <img src={this.props.imageSource} onClick={this.props.handler}/>
 
             <div className="product-name" onClick={this.props.handler}>
               <h3>
                 {this.renderLock()} {this.props.productName}
-              </h3>
-              <br />
+              </h3>&nbsp;&middot;&nbsp;
               <p className="m-0 p-0"><em>{this.props.description}</em></p>
-              {this.renderTags()}              <br />
-
             </div>
             <div className="product-tile-back"></div>
           </div>
