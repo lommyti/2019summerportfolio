@@ -21,8 +21,8 @@ renderLock(){
             <div className="product-name" onClick={this.props.handler}>
               <h3>
                 {this.renderLock()} {this.props.productName}
-              </h3>&nbsp;&middot;&nbsp;
-              <p className="m-0 p-0"><em>{this.props.description}</em></p>
+              </h3><br/>
+              <p className="m-0 p-0">{this.props.description}</p>
             </div>
             <div className="product-tile-back"></div>
           </div>

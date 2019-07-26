@@ -1,6 +1,3 @@
-@import url("https://use.typekit.net/siu2kgi.css");
-@import url("https://use.typekit.net/mmq7jqs.css");
-
 
 
 html{
@@ -14,7 +11,7 @@ html{
 }
 
 body { height: 100%;
-  font-family: brandon grotesque, sans-serif;
+  font-family: 'Assistant', sans-serif;
 
   font-weight: 400;
 
@@ -33,7 +30,7 @@ body { height: 100%;
 a{
   text-decoration: none;
   color: #606060;
-    border-bottom: 1px solid #9595d2;
+    border-bottom: 1px solid rgb(93, 141, 211);
 }
 
 .hilight{
@@ -41,7 +38,7 @@ a{
 }
 
 .blue{
-    color:#9595d2;
+    color:rgb(93, 141, 211);
 }
 
 a:hover{
@@ -49,16 +46,17 @@ a:hover{
 }
 
 h2{
-  font-family: 'Museo';
-  font-weight: 500;
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 600;
   width: auto;
   display: inline-block;
   background: transparent;
   font-style: normal !important;
-  font-size: 32px;
+  font-size: 26px;
   margin: .3em 0;
   margin-bottom: 0em;
-  color: #474747;
+  letter-spacing: -1.2px;
+  color: #343945;
 }
 
 h3{
@@ -73,16 +71,21 @@ h3{
 }
 
 .product-name h3{
-  font-size: 14px;
+  font-size: 16px;
+  font-family: 'Overpass Mono', sans-serif;
   padding: 0;
-  font-weight: bold;
-  color: #9595d2;
+  font-weight: 700;
+  color: rgb(93, 141, 211);
   display: inline-block;
 }
 
 .product-name p{
   display: inline-block;
+  font-size: 13px;
+  margin--top: -5px;
+  margin-bottom: 10px;
 }
+
 
 h5{
   font-weight: 400;
@@ -95,9 +98,11 @@ h5{
 }
 
 p{
-  letter-spacing: .15px;
-  font-family: brandon grotesque;
-  font-size: 17px;
+  letter-spacing: .75px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150% !important;
 }
 
 .info{
@@ -124,13 +129,11 @@ p{
   width: 90%;
   height: 100%;
   box-sizing: border-box;
-  margin-bottom: 65px;
+  margin-bottom: 135px;
+  background: #000;
 }
 
 .product-tile img{
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-radius: 15px;
     transition: .3s;
     opacity:1;
 }
@@ -147,7 +150,7 @@ p{
 
 .hoverpointer{
   font-size: 14px;
-  font-family: brandon grotesque;
+  font-family: 'Assistant', sans-serif;
   letter-spacing: .3px;
   width: 149px;
   background: white;
@@ -171,16 +174,12 @@ p{
 
 
 .product-name{
-  background: white;
+  background: #f3f3f3;
   box-sizing: border-box;
   text-align: left;
   position: absolute;
-  padding: 3%;
-  padding-top: 2%;
-
-  padding-bottom: 0;
-
-  height: 30px;
+  padding: 4%;
+  width: 90%;
   box-sizing: border-box;
     transition: .3s;
 }
@@ -215,7 +214,7 @@ p{
   text-align: left;
   width: 40%;
   position: relative;
-  font-family: "museo";
+  font-family: 'Overpass Mono', monospace;
   padding-bottom: 4%;
   padding-top: 5%;
   line-height:190%;
@@ -245,22 +244,30 @@ p{
 
 .linkheader{
   text-align: left;
-  font-family: museo;
+  font-family: 'Overpass Mono', monospace;
   z-index: 9999999;
   box-sizing: border-box;
   width: 100%;
-  font-size: 22px;
+  font-size: 18px;
+  letter-spacing: -1.5px;
+  font-weight: 600;
   top: 0;
 }
 
 
 .linkheader a{
-  color: #474747;
+  margin-right: 20px;
+
+  border-bottom: 3px solid  rgb(93, 141, 211);
+  margin-bottom: 13px;
+  padding-bottom: 1px;
+  color: #343945;
 }
 
 .linkheader a:hover{
   color: #bbb;
   cursor: pointer;
+  border-bottom: 3px solid #bbb;
 }
 
 .contact-box{
@@ -291,7 +298,7 @@ p{
 }
 
 .home-button{
-  background: linear-gradient(to right, #8694fd, #9595d2);
+  background: linear-gradient(to right, #8694fd, rgb(93, 141, 211));
   border-radius: 40px;
   text-transform: uppercase;
   color: #fff;
@@ -338,7 +345,7 @@ p{
 
 .close-button{
   outline: none;
-  background: #9595d2;
+  background: rgb(93, 141, 211);
   border-radius: 100%;
   width: 35px;
   height: 35px;
@@ -357,7 +364,7 @@ p{
 }
 
 .close-button:hover{
-  color: #9595d2;
+  color: rgb(93, 141, 211);
   background: white;
   cursor: pointer;
 }
@@ -370,7 +377,7 @@ p{
   margin-top: 7px;
   color: #fff;
   white-space: pre;
-  background: #9595d2;
+  background: rgb(93, 141, 211);
   font-size: 9.5px;
   width: auto;
   display: inline-block;
@@ -399,7 +406,7 @@ p{
 }
 
 .bg-orange{
-    background: #9595d2;
+    background: rgb(93, 141, 211);
     color: #fff;
 }
 
@@ -444,8 +451,12 @@ p{
 .name{
   margin: 0;
   font-weight: bold;
-  font-size: 40px;
+  border: none;
+  border: 0px solid transparent !important;
+  font-size: 52px;
+  letter-spacing: -3px !important;
   display: block;
+  color: #343945 !important;
 }
 
 
@@ -457,7 +468,7 @@ width: 100%;
 .pie{
   display:inline-block;
   color: #606060;
-  border-bottom: 1px solid #9595d2;}
+  border-bottom: 1px solid rgb(93, 141, 211);}
 
 .pie:hover{
   color: #9a9a9a;

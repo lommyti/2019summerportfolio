@@ -1,101 +1,98 @@
 @media only screen and (max-width: 800px) {
+  .linkheader {
+    margin-top: 15px !important;
+    padding-right: 15px !important;
+  }
 
+  p {
+    font-size: 18px;
+  }
 
-.linkheader{
-  margin-top: 15px !important;
-  padding-right: 15px !important;
+  .product-name h3 {
+    font-size: 18px;
+  }
 
-}
+  .linkheader a {
+    display: block;
+  }
+  .mobile-m-0 {
+    margin: 0;
+  }
+  .mobile-m-5 {
+    margin: 5%;
+  }
 
-p{
-  font-size: 18px;
-}
+  .mobile-m-10 {
+    margin: 10%;
+  }
 
-.product-name h3{
-  font-size: 18px;
-}
+  .mobile-w-100 {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+  }
+  .mobile-w-80 {
+    width: 80%;
+    box-sizing: border-box;
+  }
+  .mobile-center {
+    text-align: center;
+  }
 
-.linkheader a{
-  display:block;
-}
- .mobile-m-0{
-   margin: 0;
- }
- .mobile-m-5{
-   margin: 5%;
- }
+  .mobile-top-15 {
+    margin-top: 15%;
+  }
 
- .mobile-m-10{
-   margin: 10%;
- }
+  .mobile-m-top-0 {
+    margin-top: 0;
+  }
+  .mobile-bottom-10 {
+    margin-bottom: 19%;
+  }
 
+  .product-tile {
+    margin: 30px 0px;
+  }
 
- .mobile-w-100{
-   width: 100%;
-   box-sizing: border-box;
- }
- .mobile-w-80{
-   width: 80%;
-   box-sizing: border-box;
- }
- .mobile-center{
-   text-align: center;
- }
+  .product-name {
+    width: 100%;
+  }
 
- .mobile-top-15{
-   margin-top: 15%;
- }
+  .footer {
+    margin-bottom: 40px;
+  }
 
- .mobile-m-top-0{
-   margin-top: 0;
- }
- .mobile-bottom-10{
-   margin-bottom: 19%;
- }
+  .contact-box {
+    margin-bottom: 20px;
+  }
 
- .product-tile{
-   margin: 30px 0px;
- }
+  .name {
+    display: none;
+  }
 
- .product-name{
-   width: 96%;
- }
+  .me-img {
+    display: none;
+  }
 
- .footer{
-   margin-bottom: 40px;
- }
+  .pie img {
+    display: none;
+  }
 
- .contact-box{
-   margin-bottom: 20px;
- }
+  .pie {
+    color: #8f8f8f;
+    border: 0px solid transparent;
+  }
 
- .name{
-   display: none;
- }
+  .mobile-no-show {
+    display: none;
+  }
 
- .me-img{
-   display: none;
- }
+  .product-tile {
+    margin-bottom: 20px;
+    width: 100%;
+  }
 
- .pie img{
-   display: none;
- }
-
- .pie{
-   color: #8f8f8f;
-   border: 0px solid transparent;
- }
-
- .mobile-no-show{
-   display: none;
- }
-
- .product-tile{
-   margin-bottom: 20px;
-   width: 100%;
- }
-
- .footer h5{
-   font-size: 20px;
- }
+  .footer h5 {
+    font-size: 20px;
+  }
 }

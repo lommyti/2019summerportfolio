@@ -4,10 +4,7 @@ class Contact extends Component {
   render() {
     return (
       <div>                <p>
-      <a href="mailo:thomastli@u.northwestern.edu">Email</a>
-       <a href="https://linkedin.com/in/thomastli">LinkedIn</a>
-       <a href="https://twitter.com/thmstli">Twitter</a>
-       
+      Use the links below to hit my line! 📞📞
 
 </p></div>
 
