@@ -243,7 +243,7 @@ class App extends Component {
         <div className="w-50 mobile-w-80 mobile-m-10">
           <a onClick={() => this.renderHomeHome()}>Home</a>
           <a onClick={() => this.renderAboutSection()}>About</a>
-          <a href="/assets/Li_Thomas_Resume.pdf" target="_blank">
+          <a href="/assets/Li_Thomas_Resume_2020.pdf" target="_blank">
             {" "}
             Resume
           </a>
