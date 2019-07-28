@@ -42,8 +42,8 @@ class App extends Component {
         <div>
           {" "}
           <p>
-            Hi! 👋 Call me Tommy. I'm a product designer finishing up my degree
-            in communication, computer science, and human-centered design
+            Hey! Call me Tommy. I'm a product designer finishing up my degree in
+            communication, computer science, and human-centered design
             @Northwestern.
           </p>
           <p>
@@ -59,7 +59,7 @@ class App extends Component {
   renderAnims() {
     if (this.state.renderAnims == true) {
       return (
-        <div className="w-50 mobile-no-show p-top-7-5">
+        <div className="w-50 mobile-no-show">
           <div className="w-px">
             <img src="/img/body2.png" className="illustration body" />
             <img src="/img/ipod.png" className="illustration ipod" />
@@ -76,8 +76,8 @@ class App extends Component {
                 Small black coffee, no room, please! <br /> <br />
                 <i class="material-icons size-16">music_note</i>
                 <br />
-                Faking It - <br />
-                Sasha Sloan
+                Boy Afraid - <br />
+                Saro
               </div>
             </div>
             <div className="hoverpointer song" />
@@ -247,7 +247,6 @@ class App extends Component {
             {" "}
             Resume
           </a>
-          <a onClick={() => this.renderContacts()}>Contact</a>
           <br />
           <br />
           <a onClick={() => this.renderHomeHome()} className="name">
