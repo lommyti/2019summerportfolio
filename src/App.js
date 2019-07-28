@@ -60,7 +60,7 @@ class App extends Component {
     if (this.state.renderAnims == true) {
       return (
         <div className="w-50 mobile-no-show">
-          <div className="w-px">
+          <div className="w-px ill">
             <img src="/img/body2.png" className="illustration body" />
             <img src="/img/ipod.png" className="illustration ipod" />
             <img src="/img/coffee.png" className="illustration coffee" />

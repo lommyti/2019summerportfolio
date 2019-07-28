@@ -479,15 +479,15 @@ p {
 }
 .pie:hover img {
   opacity: 1;
-  right: 8%;
+  right: 0%;
 }
 
 .pie img {
   opacity: 0;
   position: fixed;
-  top: 0;
-  width: 40%;
-  height: 100%;
+  top: -18%;
+  width: 49%;
+  min-height: 100%;
   right: -60%;
   z-index: 999;
 }
