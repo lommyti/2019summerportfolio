@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 
 class ProductTile extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   renderLock() {
     if (this.props.productName == "Hosted Fields Page") {
       return <i class="material-icons size-16 blue">lock</i>;

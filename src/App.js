@@ -80,7 +80,7 @@ class App extends Component {
             productName="Airbnb"
             className="m-top-0"
             handler={this.AirbnbHandler}
-            description="Building a pet payments system &nbsp; •  &nbsp; Spring 2019"
+            description="Building a pet payments system&nbsp;•&nbsp;Spring 2019"
           />
           <br />
           <br />
@@ -89,7 +89,7 @@ class App extends Component {
             imageSource="/img/braintree.png"
             productName="Braintree"
             handler={this.BTHandler}
-            description="Hosted Fields landing page  &nbsp; •  &nbsp; Summer 2018
+            description="Hosted Fields landing page&nbsp;•&nbsp;Summer 2018
 "
           />
           <br />
@@ -98,7 +98,7 @@ class App extends Component {
             imageSource="/img/fact-check.png"
             productName="Fact-Check Flow"
             handler={this.FCFHandler}
-            description="In-browser fact-checking for journalists  &nbsp; •  &nbsp;  Spring 2018"
+            description="In-browser fact-checking for journalists&nbsp;•&nbsp;Spring 2018"
           />
           <br />
           <br />
@@ -109,9 +109,6 @@ class App extends Component {
             handler={this.VizHandler}
             description="Assorted digital projects"
           />
-          <br />
-          <br />
-          <br />
         </div>
       );
     } else return "";

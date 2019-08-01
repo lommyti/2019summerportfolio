@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <div className=" m-top-0 p-top-0 m-bottom-2 footer mobile-w-100 ">
+      <div className="m-l-7 m-top-0 p-top-0 m-bottom-2 footer mobile-w-100 ">
         <h5>
           Built with <i class="material-icons size-16 blue">favorite</i> in
           2019.

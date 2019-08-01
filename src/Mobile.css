@@ -115,6 +115,10 @@
     position: relative;
   }
 
+  .footer a {
+    font-size: 14px;
+  }
+
   .abs-header {
     position: relative;
     margin-top: 40px;
