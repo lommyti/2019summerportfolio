@@ -10,7 +10,7 @@ html {
 
 body {
   height: 100%;
-  font-family: "Assistant", sans-serif;
+  font-family: "DM Sans", sans-serif;
 
   font-weight: 400;
 
@@ -38,7 +38,7 @@ a {
 }
 
 .blue {
-  color: #343945;
+  color: #ffc63b;
 }
 
 a:hover {
@@ -46,13 +46,13 @@ a:hover {
 }
 
 h2 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "DM Serif Display", serif;
   font-weight: 400;
   width: auto;
+  font-style: italic;
   display: inline-block;
   background: transparent;
-  font-style: normal !important;
-  font-size: 30px;
+  font-size: 50px;
   margin: 0.3em 0;
   margin-bottom: 0em;
   letter-spacing: -1.2px;
@@ -71,20 +71,23 @@ h3 {
 }
 
 .product-name h3 {
-  font-size: 21px;
-  font-family: "Assistant", sans-serif;
+  font-size: 33px;
+  font-family: "DM Serif Display", sans-serif;
   padding: 0;
-  font-weight: 700;
+  font-weight: 400;
+  font-style: italic;
   letter-spacing: 0.25px !important;
-  color: #343945;
-  display: inline-block;
+  color: #fff;
+  margin-top: -72px;
+  position: absolute;
 }
 
 .product-name p {
   display: inline-block;
-  font-size: 13px;
+  color: #444;
   margin-top: 5px;
   margin-bottom: 10px;
+  letter-spacing: 0.5px;
 }
 
 h5 {
@@ -98,8 +101,8 @@ h5 {
 
 p {
   letter-spacing: -0px;
-  font-family: "Assistant", sans-serif;
-  font-size: 17px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
   font-weight: 300;
   line-height: 150% !important;
 }
@@ -124,11 +127,15 @@ p {
 .product-tile {
   display: inline-block;
   vertical-align: middle;
-  width: 90%;
   height: 100%;
   box-sizing: border-box;
-  margin-bottom: 135px;
-  background: #000;
+  margin-bottom: 235px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.product-tile:hover img {
+  opacity: 0.75;
 }
 
 .product-tile p {
@@ -137,6 +144,8 @@ p {
 .product-tile img {
   transition: 0.3s;
   opacity: 1;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .link-arrow a {
@@ -151,7 +160,7 @@ p {
 
 .hoverpointer {
   font-size: 14px;
-  font-family: "Assistant", sans-serif;
+  font-family: "DM Sans", sans-serif;
   letter-spacing: 0.3px;
   width: 149px;
   font-weight: 300;
@@ -175,22 +184,22 @@ p {
 }
 
 .product-name {
-  background: #f3f3f3;
   box-sizing: border-box;
   text-align: left;
   position: absolute;
-  padding: 4%;
-  width: 90%;
+  padding: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 12px 33px 50px -18px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   transition: 0.3s;
 }
 
 .product-tile:hover {
   cursor: pointer;
-}
-
-.product-tile:hover img {
-  opacity: 0.55;
 }
 
 .product-tile-back {
@@ -209,17 +218,21 @@ p {
 
 .footer {
   text-align: left;
-  width: 40%;
-  position: relative;
-  font-family: "Cormorant Garamond", serif;
-  padding-bottom: 4%;
-  padding-top: 5%;
+  width: 22%;
+  position: fixed;
+  font-family: "DM Sans", sans=-serif;
   line-height: 190%;
-  font-size: 20px;
+  bottom: 0px;
+  padding-bottom: 20px;
+  left: 0;
+  margin-bottom: 0;
+  margin: 5%;
+  margin-left: 8%;
 }
 
 .footer a {
   text-decoration: none;
+  font-size: 18px;
 }
 
 .footer a:hover {
@@ -245,26 +258,24 @@ p {
 
 .linkheader {
   text-align: left;
-  font-family: "Assistant", sans-serif;
+  font-family: "DM Sans", sans-serif;
   z-index: 9999999;
   box-sizing: border-box;
   width: 100%;
   font-size: 18px;
-  letter-spacing: -2px;
   font-weight: 400 !important;
   top: 0;
 }
 
 .linkheader a {
-  margin-right: 30px;
-  font-family: "Cormorant Garamond", serif;
+  margin-right: 40px;
   border-bottom: 1px solid transparent;
   margin-bottom: 3px;
-  padding-bottom: 1px;
+  padding-bottom: 3px;
   color: #343945;
   letter-spacing: -1px;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .linkheader a:hover {
@@ -455,9 +466,9 @@ p {
   font-weight: 400;
   border: none;
   border: 0px solid transparent !important;
-  font-size: 80px !important;
-  font-family: "Cormorant Garamond", serif;
-  letter-spacing: -4px !important;
+  font-size: 3rem !important;
+  font-family: "DM Serif Display", serif;
+  letter-spacing: -3px !important;
   font-style: italic;
   display: block;
   color: #343945 !important;
@@ -551,4 +562,46 @@ h6 {
 ul,
 ol {
   letter-spacing: 0.5px;
+}
+
+.abs-link {
+  position: fixed;
+  width: 28%;
+  right: 0;
+  text-align: center;
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.abs-link a {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+}
+
+.abs-header {
+  position: fixed;
+  width: 22%;
+  left: 0;
+  margin: 8%;
+  margin-bottom: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+.yellow-bar {
+  width: 7px;
+  height: 50%;
+  background: linear-gradient(#ffc63b, #fff);
+  display: inline-block;
+  position: absolute;
+  margin-left: 7px;
+}
+
+.bio-desc {
+  display: inline-block !important;
+  padding-left: 34px;
+  margin-top: 0px;
+  color: #444;
+  letter-spacing: 0.5px;
+  line-height: 150% !important;
 }

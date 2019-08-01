@@ -5,7 +5,7 @@ class About extends Component {
     return (
       <div className="container">
         <br />
-        <div className="w-30 m-20 m-right-0 m-top-0 h-100 mobile-w-80 m-right-0 m-bottom-10 mobile-m-10 mobile-m-top-0">
+        <div className="w-30 m-20 m-right-0 m-top-5 h-100 mobile-w-80 m-right-0 m-bottom-10 mobile-m-10 mobile-m-top-0">
           <p>
             {" "}
             My name is Thomas Li (really though, call me Tommy) and I'm a
@@ -47,15 +47,12 @@ class About extends Component {
           </p>
           <br />
           <p>
-            Currently, I'm looking for{" "}
-            <span class="hilight">
-              PM/design internships for winter 2020, and full-time roles
-              starting june 2020.{" "}
-            </span>
-            Interested? Feel free to reach out at thomastli@u.northwestern.edu!
+            Currently, I'm looking for PM/design internships for winter 2020,
+            and full-time roles starting june 2020. Interested? Feel free to
+            reach out at thomastli@u.northwestern.edu!
           </p>
         </div>
-        <div className="w-30 h-100 me-img p-left-2">
+        <div className="w-30 h-100 me-img p-left-2 m-top-5">
           <img src="/img/me.jpg" />
         </div>
       </div>

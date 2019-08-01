@@ -27,8 +27,7 @@ class App extends Component {
       renderFCF: false,
       renderViz: false,
       renderAirbnb: false,
-      renderDescs: true,
-      renderAnims: true
+      renderDescs: true
     };
     this.BTHandler = this.BTHandler.bind(this);
     this.FCFHandler = this.FCFHandler.bind(this);
@@ -40,48 +39,12 @@ class App extends Component {
     if (this.state.renderDescs == true) {
       return (
         <div>
-          {" "}
-          <p>
+          <div class="yellow-bar" />{" "}
+          <p class="bio-desc">
             Hey! Call me Tommy. I'm a product designer finishing up my degree in
             communication, computer science, and human-centered design
             @Northwestern.
           </p>
-          <p>
-            Previously @Braintree Docs (Summer '18).
-            <br />
-            Currently @Groupon PM (Summer '19).
-          </p>
-        </div>
-      );
-    } else return "";
-  }
-
-  renderAnims() {
-    if (this.state.renderAnims == true) {
-      return (
-        <div className="w-50 mobile-no-show">
-          <div className="w-px ill">
-            <img src="/img/body2.png" className="illustration body" />
-            <img src="/img/ipod.png" className="illustration ipod" />
-            <img src="/img/coffee.png" className="illustration coffee" />
-            <img src="/img/hands.png" className="illustration hands" />
-            <img src="/img/hands2.png" className="illustration body" />
-
-            <div class="alert-coffee">
-              <img src="/img/alert.png" className="alert" />
-              <br />
-              <div className="hoverpointer">
-                <i class="material-icons size-16 p-right-2">local_drink</i>
-                <br />
-                Small black coffee, no room, please! <br /> <br />
-                <i class="material-icons size-16">music_note</i>
-                <br />
-                Boy Afraid - <br />
-                Saro
-              </div>
-            </div>
-            <div className="hoverpointer song" />
-          </div>
         </div>
       );
     } else return "";
@@ -110,37 +73,45 @@ class App extends Component {
       return (
         <div
           id="portfolio"
-          className="w-60 m-20 mobile-m-10 mobile-w-80 m-top-0 m-bottom-0 p-top-2"
+          className="w-33 m-20 mobile-m-0 m-left-50 mobile-w-94  m-top-0 m-bottom-0 p-top-2"
         >
-          <h2>Portfolio</h2>
-          <br />
-          <br />
           <ProductTile
             imageSource="/img/airbnb.png"
             productName="Airbnb"
             className="m-top-0"
             handler={this.AirbnbHandler}
-            description="Building a pet payments system"
+            description="Building a pet payments system &nbsp; •  &nbsp; Spring 2019"
           />
+          <br />
+          <br />
+          <br />
           <ProductTile
             imageSource="/img/braintree.png"
             productName="Braintree"
             handler={this.BTHandler}
-            description="Hosted Fields landing page
+            description="Hosted Fields landing page  &nbsp; •  &nbsp; Summer 2018
 "
           />
+          <br />
+          <br />
           <ProductTile
-            imageSource="/img/knightlab.png"
+            imageSource="/img/fact-check.png"
             productName="Fact-Check Flow"
             handler={this.FCFHandler}
-            description="In-browser fact-checking for journalists"
+            description="In-browser fact-checking for journalists  &nbsp; •  &nbsp;  Spring 2018"
           />
+          <br />
+          <br />
+          <br />
           <ProductTile
             imageSource="/img/toothless.png"
             productName="Visual Design"
             handler={this.VizHandler}
             description="Assorted digital projects"
           />
+          <br />
+          <br />
+          <br />
         </div>
       );
     } else return "";
@@ -208,8 +179,7 @@ class App extends Component {
       renderAbout: false,
       renderContact: false,
       renderFooter: true,
-      renderDescs: true,
-      renderAnims: true
+      renderDescs: true
     });
   }
 
@@ -219,9 +189,8 @@ class App extends Component {
       renderTiles: false,
       renderAbout: true,
       renderContact: false,
-      renderFooter: false,
-      renderDescs: false,
-      renderAnims: false
+      renderFooter: true,
+      renderDescs: false
     });
   }
 
@@ -232,21 +201,25 @@ class App extends Component {
       renderAbout: false,
       renderContact: true,
       renderFooter: true,
-      renderDescs: false,
-      renderAnims: true
+      renderDescs: false
     });
   }
 
   renderHeader() {
     return (
       <div className="w-60 m-20 m-top-5 m-bottom-0 linkheader link-arrow mobile-m-0 mobile-w-100">
-        <div className="w-50 mobile-w-80 mobile-m-10">
+        <div className="abs-link">
           <a onClick={() => this.renderHomeHome()}>Home</a>
           <a onClick={() => this.renderAboutSection()}>About</a>
-          <a href="/assets/Li_Thomas_Resume_2020.pdf" target="_blank">
-            {" "}
+          <a
+            href="/assets/Li_Thomas_Resume_2020.pdf"
+            target="_blank"
+            class="m-right-0-0"
+          >
             Resume
           </a>
+        </div>
+        <div className=" mobile-w-90 abs-header">
           <br />
           <br />
           <a onClick={() => this.renderHomeHome()} className="name">
@@ -256,7 +229,6 @@ class App extends Component {
           {this.renderDescs()}
           {this.renderContact()}
         </div>
-        {this.renderAnims()}
       </div>
     );
   }
