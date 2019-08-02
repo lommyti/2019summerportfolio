@@ -103,6 +103,7 @@ p {
   letter-spacing: -0px;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
+  color: #444;
   font-weight: 300;
   line-height: 150% !important;
 }
@@ -605,4 +606,11 @@ ol {
   color: #444;
   letter-spacing: 0.5px;
   line-height: 150% !important;
+}
+
+.about a {
+  background: rgba(255, 198, 59, 0.4);
+  color: #000;
+  padding-left: 2px;
+  padding-right: 2px;
 }

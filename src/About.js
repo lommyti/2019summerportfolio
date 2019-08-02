@@ -5,26 +5,15 @@ class About extends Component {
     return (
       <div className="container">
         <br />
-        <div className="w-30 m-20 m-right-0 m-top-5 h-100 mobile-w-80 m-right-0 m-bottom-10 mobile-m-10 mobile-m-top-0">
+        <div className="w-30 m-20 m-right-0 m-top-5 h-100 mobile-w-80 m-right-0 m-bottom-10 mobile-m-10 mobile-m-top-0 about">
           <p>
             {" "}
-            My name is Thomas Li (really though, call me Tommy) and I'm a
-            third-year student at Northwestern studying communication studies,
-            computer science, & design.
-          </p>
-
-          <p>
-            {" "}
-            I feel strongly about{" "}
+            I’m a fourth-year student, finishing up my degree in communication
+            studies, computer science, & human-centered design at Northwestern
+            University; a less-boring description of me would probably mention
+            my affinity for toucans,{" "}
             <a href="http://www.sumocitrus.com/" target="_blank">
               sumo citrus
-            </a>
-            , creating my own custom{" "}
-            <a
-              href="https://open.spotify.com/user/t0mmyli?si=vqnwS4C2TnWakDsndgPpSQ"
-              target="_blank"
-            >
-              Spotify playlist art
             </a>
             ,{" "}
             <a
@@ -33,22 +22,11 @@ class About extends Component {
             >
               this clip from Bojack Horseman
             </a>
-            , & the movie, <i>Love, Simon</i>.
+            , geometric pie crust designs, & the movie, <i>Love, Simon</i>.
           </p>
-          <p>
-            {" "}
-            At school I'm involved in tech, social justice, & research
-            extracurriculars, when I'm not&nbsp;
-            <div class="pie">
-              making pie
-              <img src="/img/pie.jpg" />
-            </div>
-            .
-          </p>
-          <br />
           <p>
             Currently, I'm looking for PM/design internships for winter 2020,
-            and full-time roles starting june 2020. Interested? Feel free to
+            and full-time roles starting June 2020. Interested? Feel free to
             reach out at thomastli@u.northwestern.edu!
           </p>
         </div>

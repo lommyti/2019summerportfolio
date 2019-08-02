@@ -109,6 +109,9 @@ class App extends Component {
             handler={this.VizHandler}
             description="Assorted digital projects"
           />
+          <br />
+          <br />
+          <br />
         </div>
       );
     } else return "";

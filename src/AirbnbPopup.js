@@ -91,34 +91,41 @@ class AirbnbPopup extends Component {
           <img src="/img/petquotes.jpg" width="125%" className="p-top-0" />
           <p className="m-0 m-bottom-5">
             However, before deciding that a pet fee was the solution to all of
-            these problems, we needed to think about edge cases. Accounts of
-            multiple pets coming to stay for 3+ months helped us to retain the
-            belief that we needed to create a flexible solution that could fit
-            owners of all kinds of listings. This, combined with a series of
-            questions in our survey asking hosts to compare different types of
-            pet fees and deposits, we found that a nightly fee dependent on the
-            number of pets made the most sense. Providing hosts security by
-            allowing them to collect it at the time of payment (rather than
-            waiting for the guest to accept the payment on the Resolution
-            Center) and suggesting to incorporate this into the regular payment
-            flow would make our suggestions significantly more valuable than the
-            existing workaround systems. And in talking to Airbnb, we found that
-            this solution had the added bonus of relieving traffic to the
-            Resolution Center, where pet fee requests were already one of the
-            most popular types of transactions.{" "}
+            these problems, we needed to think about edge cases.
           </p>
-          <img src="/img/edgecases.jpg" width="125%" className="p-top-0" />
+          <p className="m-0 m-bottom-5">
+            <img src="/img/edgecases.jpg" width="125%" className="p-top-0" />
+            Accounts of multiple pets coming to stay for 3+ months helped us to
+            retain the belief that we needed to create a flexible solution that
+            could fit owners of all kinds of listings. This, combined with a
+            series of questions in our survey asking hosts to compare different
+            types of pet fees and deposits, we found that a nightly fee
+            dependent on the number of pets made the most sense.{" "}
+          </p>
+          <p className="m-0 m-bottom-5">
+            Providing hosts security by allowing them to collect it at the time
+            of payment (rather than waiting for the guest to accept the payment
+            on the Resolution Center) and suggesting to incorporate this into
+            the regular payment flow would make our suggestions significantly
+            more valuable than the existing workaround systems. And in talking
+            to Airbnb, we found that this solution had the added bonus of
+            relieving traffic to the Resolution Center, where pet fee requests
+            were already one of the most popular types of transactions.{" "}
+          </p>
           <img src="/img/nightlyfee.jpg" width="125%" className="p-top-0" />
           <p className="m-0 m-bottom-5">
             This pet fee advancement showed promise, but in reflecting on our
             goals of making this both informative and joyful, we felt like the
-            process remained impersonal. To add to the goal of making it a more
-            empathetic process, we built out some initial mockups for a pet
-            profile to see what it would look like for guests to provide
-            information about their pets as well! This was a visionary part of
-            the project that showed more of what this project could look like as
-            something implementable on the Airbnb platform, and gave us a chance
-            to plaster dog pictures all around our project as well!
+            process remained <strong>impersonal</strong>.{" "}
+          </p>
+          <p className="m-0 m-bottom-5">
+            To add to the goal of making it a more empathetic process, we built
+            out some initial mockups for a pet profile to see what it would look
+            like for guests to provide information about their pets as well.
+            This was a visionary part of the project that showed more of what
+            this project could look like as something implementable on the
+            Airbnb platform, and gave us a chance to plaster dog pictures all
+            around our project too!
           </p>
           <img src="/img/petprofile1.jpg" width="125%" className="p-top-0" />
           <img src="/img/petprofile2.jpg" width="125%" className="p-top-0" />
@@ -129,6 +136,16 @@ class AirbnbPopup extends Component {
           <h6>Results</h6>
         </div>
         <div className="w-50 p-top-5 mobile-w-100">
+          <p className="m-0 m-bottom-5">
+            This solution was developed with the needs of Airbnb hosts in mind,
+            so our success metric for the project was contingent on host buy-in.
+            By the end of the project we heard that{" "}
+            <strong>
+              {" "}
+              15/23 of hosts that we worked with would be interested in using
+              this feature, 3 of whom don't even accept pets right now.
+            </strong>
+          </p>
           <p className="m-0 m-bottom-5">
             Since this project was done as part of the Northwestern University
             Bay Area Immersion Program, we passed this research onto the
