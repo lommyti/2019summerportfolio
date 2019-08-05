@@ -4,26 +4,34 @@ class AirbnbPopup extends Component {
   render() {
     return (
       <div className="w-100 p-10 popup pos-fixed">
-        <h2>Airbnb </h2>
-        <button class="close-button" onClick={this.props.handler}>
-          ×
-        </button>
+        <div className="w-25 mobile-w-100">
+          <h2>Airbnb </h2>
+          <button class="close-button" onClick={this.props.handler}>
+            ×
+          </button>
+          <br />
+
+          <br />
+
+          <p>
+            <em>
+              Building a pet payments system. <br />
+              An <a href="https://airbnb.com/">Airbnb</a> client project done
+              during the Northwestern Bay Area Immersion Program.
+            </em>
+            <br />
+            <br />
+            Teammates: Erica Cantor, Idrees Kamal
+            <br />
+          </p>
+        </div>
+        <img
+          src="/img/airbnbbanner.png"
+          width="70%"
+          className="p-top-0 m-l-5 mobile-w-100 mobile-m-l-0"
+        />
         <br />
 
-        <br />
-
-        <p>
-          <em>
-            Building a pet payments system. <br />
-            An <a href="https://airbnb.com/">Airbnb</a> client project done
-            during the Northwestern Bay Area Immersion Program.
-          </em>
-          <br />
-          <br />
-          Teammates: Erica Cantor, Idrees Kamal
-          <br />
-        </p>
-        <br />
         <div className="w-30 p-10 p-top-5 p-right-5 align-right mobile-w-100">
           <h6>Context</h6>
         </div>
@@ -89,12 +97,14 @@ class AirbnbPopup extends Component {
             Resolution Center).{" "}
           </p>
           <img src="/img/petquotes.jpg" width="125%" className="p-top-0" />
-          <p className="m-0 m-bottom-5">
+          <p className="m-0">
             However, before deciding that a pet fee was the solution to all of
             these problems, we needed to think about edge cases.
           </p>
           <p className="m-0 m-bottom-5">
             <img src="/img/edgecases.jpg" width="125%" className="p-top-0" />
+            <br />
+            <br />
             Accounts of multiple pets coming to stay for 3+ months helped us to
             retain the belief that we needed to create a flexible solution that
             could fit owners of all kinds of listings. This, combined with a

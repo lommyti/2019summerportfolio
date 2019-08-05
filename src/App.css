@@ -608,9 +608,16 @@ ol {
   line-height: 150% !important;
 }
 
-.about a {
+.about a,
+.popup a {
   background: rgba(255, 198, 59, 0.4);
   color: #000;
   padding-left: 2px;
   padding-right: 2px;
+}
+
+.about a:hover,
+.popup a:hover {
+  background: #f3f3f3;
+  color: #444;
 }

@@ -128,6 +128,11 @@
   #portfolio {
     margin-left: 3% !important;
   }
+
+  .mobile-m-l-0 {
+    margin-left: 0;
+    padding: 50px 0px;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
