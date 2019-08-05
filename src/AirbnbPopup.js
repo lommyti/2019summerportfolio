@@ -14,20 +14,24 @@ class AirbnbPopup extends Component {
           <br />
 
           <p>
-            <em>
-              Building a pet payments system. <br />
-              An <a href="https://airbnb.com/">Airbnb</a> client project done
-              during the Northwestern Bay Area Immersion Program.
-            </em>
+            Building a pet payments system. <br />
+            An <a href="https://airbnb.com/">Airbnb</a> client project done
+            during the NU Bay Area Immersion Program.
             <br />
             <br />
-            Teammates:{" "}
+            <strong>Teammates:</strong> <br />
             <a href="https://www.linkedin.com/in/erica-cantor-273a12147/">
               Erica Cantor
             </a>
             ,{" "}
             <a href="https://www.linkedin.com/in/idreeskamal/">Idrees Kamal</a>
+            <br /> <br />
+            <strong>Key Results:</strong>
             <br />
+            &middot; 15/23 hosts surveyed were interested in the proposed
+            feature <br />
+            <br />
+            &middot; Research was shared with Airbnb Experience Research team
           </p>
         </div>
         <img

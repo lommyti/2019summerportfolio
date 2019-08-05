@@ -11,16 +11,14 @@ class FCFPopup extends Component {
           </button>
           <br />
           <p>
-            <em>
-              Fact-checking for the modern digital newsroom. <br />
-              Supported by the{" "}
-              <a href="https://knightlab.northwestern.edu/">
-                Northwestern University Knight Lab.
-              </a>
-            </em>
+            Fact-checking for modern digital newsrooms, supported by the{" "}
+            <a href="https://knightlab.northwestern.edu/">
+              Northwestern University Knight Lab.
+            </a>
             <br />
             <br />
-            Teammates:{" "}
+            <strong>Teammates: </strong>
+            <br />
             <a href="https://www.linkedin.com/in/rafahali/">Rafah Ali</a>,{" "}
             <a href="https://www.linkedin.com/in/laura-barrera-91a9b4122/">
               Laura Barrera
@@ -33,6 +31,12 @@ class FCFPopup extends Component {
             <a href="https://www.linkedin.com/in/madelinelefevour/">
               Madeline Lefevour
             </a>{" "}
+            <br />
+            <br />
+            <strong>Key Results:</strong>
+            <br />
+            &middot; Built "Works Like" and "Looks Like" prototypes in 10-week
+            period
           </p>
         </div>
         <img
