@@ -21,7 +21,12 @@ class AirbnbPopup extends Component {
             </em>
             <br />
             <br />
-            Teammates: Erica Cantor, Idrees Kamal
+            Teammates:{" "}
+            <a href="https://www.linkedin.com/in/erica-cantor-273a12147/">
+              Erica Cantor
+            </a>
+            ,{" "}
+            <a href="https://www.linkedin.com/in/idreeskamal/">Idrees Kamal</a>
             <br />
           </p>
         </div>
