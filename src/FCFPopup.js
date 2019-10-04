@@ -11,7 +11,10 @@ class FCFPopup extends Component {
           </button>
           <br />
           <p>
-            Fact-checking for modern digital newsrooms, supported by the{" "}
+            <strong>Summary:</strong>
+            <br />
+            Building out fact-checking for modern digital newsrooms, supported
+            by the{" "}
             <a href="https://knightlab.northwestern.edu/">
               Northwestern University Knight Lab.
             </a>
@@ -33,6 +36,11 @@ class FCFPopup extends Component {
             </a>{" "}
             <br />
             <br />
+            <strong>Timeline: </strong>
+            <br />
+            10 weeks
+            <br />
+            <br />
             <strong>Key Results:</strong>
             <br />
             &middot; Built "Works Like" and "Looks Like" prototypes in 10-week
@@ -45,14 +53,18 @@ class FCFPopup extends Component {
           className="p-top-0 m-l-5 mobile-w-100 mobile-m-l-0"
         />
         <br />
-        <div className="w-30 p-10 p-top-5 p-right-5 align-right mobile-w-100">
+        <div className="w-80 p-10 p-top-5 p-right-0 p-bottom-0 align-left mobile-w-100  mobile-p-10">
           <h6>
-            The Problem/
-            <br />
-            Potential Users
+            How might we improve the editorial flow of small, digital newsrooms
+            by eliminating the need for pen-and-paper-based article
+            fact-checking?
           </h6>
         </div>
-        <div className="w-50 p-top-5 mobile-w-100">
+        <div className="w-30 p-10 p-top-5 p-right-2 align-right mobile-align-left mobile-padding-0 mobile-w-100">
+          <h6>📖</h6>
+        </div>
+        <div className="w-50 p-top-5 mobile-w-100 mobile-padding-0">
+          <h6>The Problem / Potential Users</h6>
           <p className="m-0">
             From our teammate Maddy’s experiences in journalism classes,
             internship experiences, and conversations with industry
@@ -80,8 +92,8 @@ class FCFPopup extends Component {
           </p>
           <img
             src="/img/journeymap.png"
-            width="150%"
-            className="p-top-5  m-left-minus-25"
+            width="125%"
+            className="p-top-5 mobile-w-100 mobile-m-l-0"
           />
           <p className="m-0 m-bottom-5">
             <em>
@@ -100,23 +112,24 @@ class FCFPopup extends Component {
           </p>
         </div>
 
-        <div className="w-30 p-10 p-bottom-5 p-top-5 p-right-5 align-right mobile-w-100">
-          <h6>My Role</h6>
+        <div className="w-30 p-10 p-bottom-5 p-top-5 p-right-2 align-right mobile-align-left mobile-padding-0 mobile-w-100">
+          <h6>🤸</h6>
         </div>
-        <div className="w-50 p-top-5 mobile-w-100">
+        <div className="w-50 p-top-5 mobile-w-100 mobile-padding-0">
           <p className="m-0">
-            I was responsible for turning our insights and desired features into
-            testable prototypes at various fidelities; this entailed{" "}
-            <strong>sketching</strong> and prototyping in <strong>Figma</strong>
-            .
+            <h6>My Role</h6>I was responsible for turning our insights and
+            desired features into testable prototypes at various fidelities;
+            this entailed <strong>sketching</strong> and prototyping in{" "}
+            <strong>Figma</strong>.
           </p>
         </div>
 
-        <div className="w-30 p-10 p-top-5 p-right-5 align-right mobile-w-100">
-          <h6>Design Process</h6>
+        <div className="w-30 p-10 p-top-5 p-right-2 align-right mobile-align-left mobile-padding-0 mobile-w-100">
+          <h6>📝</h6>
         </div>
-        <div className="w-50 p-top-5 mobile-w-100">
+        <div className="w-50 p-top-5 mobile-w-100 mobile-padding-0">
           <p className="m-0">
+            <h6>Design Process</h6>
             We quickly decided that the ideal platform for our digitalized
             fact-checking was <strong>Google Docs</strong>; it’s highly
             accessible and used more commonly by smaller newsrooms, while larger
@@ -129,18 +142,30 @@ class FCFPopup extends Component {
             incorrect, and attributing a fact to a source.{" "}
           </p>
           <h4> Samples from our paper prototype</h4>
-          <img src="/img/fcf2.jpg" width="100%" className="p-top-0" />
+          <img
+            src="/img/fcf2.jpg"
+            width="100%"
+            className="p-top-0 mobile-w-100 mobile-m-l-0"
+          />
           <p className="m-0 m-bottom-5">
             <em>Our initial interface idea for adding text as a fact.</em>
           </p>
-          <img src="/img/fcf25.jpg" width="100%" className="p-top-2" />
+          <img
+            src="/img/fcf25.jpg"
+            width="100%"
+            className="p-top-2 mobile-w-100 mobile-m-l-0"
+          />
           <p className="m-0 m-bottom-5">
             <em>
               A fact would then be highlighted to indicate that it's been added
               to the list of facts.
             </em>
           </p>
-          <img src="/img/fcf3.jpg" width="100%" className="p-top-2" />
+          <img
+            src="/img/fcf3.jpg"
+            width="100%"
+            className="p-top-2 mobile-w-100 mobile-m-l-0"
+          />
           <p className="m-0 m-bottom-5">
             <em>
               Clicking on an unconfirmed fact would open a popup for confirming
@@ -149,11 +174,12 @@ class FCFPopup extends Component {
           </p>
         </div>
 
-        <div className="w-30 p-10 p-bottom-5 p-top-5 p-right-5 align-right mobile-w-100">
-          <h6>User Testing</h6>
+        <div className="w-30 p-10 p-bottom-5 p-top-5 p-right-2 align-right mobile-align-left mobile-padding-0 mobile-w-100">
+          <h6>💁</h6>
         </div>
-        <div className="w-50 p-top-5 mobile-w-100">
+        <div className="w-50 p-top-5 mobile-w-100 mobile-padding-0">
           <p className="m-0">
+            <h6>User Testing</h6>
             In testing our paper prototype with 2 journalism students who had
             learned to fact-check with the conventional method, we obtained
             three key insights from our first prototype:
@@ -191,11 +217,12 @@ class FCFPopup extends Component {
           </p>
         </div>
 
-        <div className="w-30 p-10 p-bottom-5 p-top-5 p-right-5 align-right mobile-w-100">
-          <h6>Final Prototype Flow/Screens</h6>
+        <div className="w-30 p-10 p-bottom-5 p-top-5 p-right-2 align-right mobile-align-left mobile-padding-0 mobile-w-100">
+          <h6>✔️</h6>
         </div>
-        <div className="w-50 p-top-5 mobile-w-100">
+        <div className="w-50 p-top-5 mobile-w-100 mobile-padding-0">
           <p className="m-0">
+            <h6>Final Prototype Flow / Screens</h6>
             After iterating on our initial ideas, we moved to higher-fidelity
             prototyping on Figma so that we could better visualize the product
             as it would appear on Google Docs. These are a few of the artefacts
@@ -205,15 +232,15 @@ class FCFPopup extends Component {
             <h4>Intended user flow</h4>
             <img
               src="/img/userflow.png"
-              width="150%"
-              className="m-left-minus-25"
+              width="125%"
+              className="mobile-w-100 mobile-m-l-0"
             />
           </p>
           <h4> Samples from our final prototype</h4>
           <img
             src="/img/fcffinal1.png"
-            width="150%"
-            className="p-top-0 m-left-minus-25"
+            width="125%"
+            className="p-top-0 mobile-w-100 mobile-m-l-0"
           />
           <p className="m-0 m-bottom-5">
             <em>
@@ -223,8 +250,8 @@ class FCFPopup extends Component {
           </p>
           <img
             src="/img/fcffinal2.png"
-            width="150%"
-            className="p-top-2 m-left-minus-25"
+            width="125%"
+            className="p-top-2 mobile-w-100 mobile-m-l-0"
           />
           <p className="m-0 m-bottom-5">
             <em>
@@ -234,9 +261,9 @@ class FCFPopup extends Component {
             </em>
           </p>
           <img
-            src="/img/fcffinal3.png"
-            width="150%"
-            className="p-top-2 m-left-minus-25"
+            src="/img/fcffinalcrop3.png"
+            width="125%"
+            className="p-top-2 mobile-w-100 mobile-m-l-0"
           />
           <p className="m-0 m-bottom-5">
             <em>
@@ -245,9 +272,9 @@ class FCFPopup extends Component {
             </em>
           </p>
           <img
-            src="/img/fcffinal4.png"
-            width="150%"
-            className="p-top-2 m-left-minus-25"
+            src="/img/fcffinalcrop4.png"
+            width="125%"
+            className="p-top-2 mobile-w-100 mobile-m-l-0"
           />
           <p className="m-0 m-bottom-5">
             <em>
@@ -256,22 +283,17 @@ class FCFPopup extends Component {
             </em>
           </p>
           <img
-            src="/img/fcffinal5.png"
-            width="150%"
-            className="p-top-2 m-left-minus-25"
+            src="/img/fcffinalcrop5.png"
+            width="125%"
+            className="p-top-2 mobile-w-100 mobile-m-l-0"
           />
-          <p className="m-0 m-bottom-5">
-            <em>
-              This fact-checking just scratches the surface; more work would
-              need to be done before sending this back to a writer.
-            </em>
-          </p>
         </div>
 
-        <div className="w-30 p-10 p-bottom-5 p-top-5 p-right-5 align-right mobile-w-100">
-          <h6>Visual Design</h6>
+        <div className="w-30 p-10 p-bottom-5 p-top-5 p-right-2 align-right mobile-align-left mobile-padding-0 mobile-w-100">
+          <h6>🎨</h6>
         </div>
-        <div className="w-50 p-top-5 mobile-w-100">
+        <div className="w-50 p-top-5 mobile-w-100 mobile-padding-0">
+          <h6>Visual Design</h6>
           <p className="m-0">
             My vision for this product was one of <strong>order</strong> and{" "}
             <strong>organization</strong>; we were replacing a messy, on-paper
@@ -287,11 +309,12 @@ class FCFPopup extends Component {
           </p>
         </div>
 
-        <div className="w-30 p-10 p-bottom-5 p-top-5 p-right-5 align-right mobile-w-100">
-          <h6>What I Learned</h6>
+        <div className="w-30 p-10 p-bottom-5 p-top-5 p-right-2 align-right mobile-align-left mobile-padding-0 mobile-w-100">
+          <h6>🧠</h6>
         </div>
-        <div className="w-50 p-top-5 mobile-w-100">
+        <div className="w-50 p-top-5 mobile-w-100 mobile-padding-0">
           <p className="m-0">
+            <h6>What I Learned</h6>
             This project taught me a lot about{" "}
             <strong>the meaning of a minimum viable product</strong>.
           </p>
@@ -309,6 +332,14 @@ class FCFPopup extends Component {
             core functionality so that we could create a product that could be
             truly disruptive in this space.
           </p>
+        </div>
+        <div className="w-80 m-10 m-bottom-2 m-top-2 p-10 p-top-5 align-center p-bottom-0 mobile-w-80 mobile-m-0">
+          <h6 onClick={this.props.nextHandler} className="fake-link m-right-5">
+            🠘
+            <br /> NEXT CASE STUDY:
+            <br />
+            BRAINTREE
+          </h6>
         </div>
       </div>
     );

@@ -21,6 +21,7 @@
 .m-right-0 {
   margin-right: 0;
 }
+
 .w-80 {
   width: 80%;
   display: inline-block;
@@ -55,7 +56,13 @@
   display: inline-block;
   box-sizing: border-box;
 }
-
+.w-45 {
+  width: 45%;
+  height: 100%;
+  vertical-align: top;
+  display: inline-block;
+  box-sizing: border-box;
+}
 .w-33 {
   width: 33.33%;
   display: inline-block;
@@ -119,6 +126,10 @@
 
 .p-right-5 {
   padding-right: 5%;
+}
+
+.p-bottom-15 {
+  padding-bottom: 5%;
 }
 
 .m-20 {
@@ -229,7 +240,9 @@
 .align-right {
   text-align: right;
 }
-
+.align-center {
+  text-align: center;
+}
 .homepage-img img {
   width: 90%;
   margin-top: 10%;
@@ -267,6 +280,9 @@
   padding-right: 2%;
 }
 
+.p-right-0 {
+  padding-right: 0%;
+}
 .w-px {
   width: 350px;
 }
@@ -294,4 +310,27 @@
 
 .m-l-5 {
   margin-left: 5%;
+}
+.m-left-8 {
+  margin-left: 8%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.p-left-5 {
+  padding-left: 8%;
+}
+
+.p-bottom-0 {
+  padding-bottom: 0%;
+}
+
+.m-right-5 {
+  margin-right: 5%;
 }

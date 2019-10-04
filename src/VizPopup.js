@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class VizPopup extends Component {
   render() {
     return (
-      <div className="w-100 p-10 popup pos-fixed overflow-scroll p-top-7-5">
+      <div className="w-100 p-10 popup pos-fixed overflow-scroll p-top-7-5 p-bottom-15">
         <div className="pos-relative ">
           <h2>Visual Design</h2>
           <button class="close-button" onClick={this.props.handler}>
@@ -41,6 +41,11 @@ class VizPopup extends Component {
             </div>
             <div class="column _25">
               <img src="/img/space.png" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img src="/img/buildux.png" />
             </div>
           </div>
         </div>

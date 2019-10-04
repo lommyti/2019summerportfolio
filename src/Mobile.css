@@ -58,6 +58,10 @@
   .mobile-m-top-0 {
     margin-top: 0;
   }
+
+  .mobile-p-10 {
+    padding: 10%;
+  }
   .mobile-bottom-10 {
     margin-bottom: 19%;
   }
@@ -132,6 +136,18 @@
   .mobile-m-l-0 {
     margin-left: 0;
     padding: 50px 0px;
+  }
+
+  .close-button {
+    font-size: 16px;
+  }
+  .mobile-align-left {
+    text-align: left;
+    padding-top: 10% !important;
+  }
+
+  .mobile-padding-0 {
+    padding: 0;
   }
 }
 

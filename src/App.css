@@ -91,12 +91,13 @@ h3 {
 }
 
 h5 {
-  font-weight: 400;
   width: auto;
   display: inline-block;
   z-index: 9999;
   position: relative;
   margin: 0px 0px;
+  font-size: 17px;
+  margin-bottom: 4px;
 }
 
 p {
@@ -123,6 +124,11 @@ p {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: #ccc;
+}
+
+li {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .product-tile {
@@ -229,6 +235,13 @@ p {
   margin-bottom: 0;
   margin: 5%;
   margin-left: 8%;
+}
+
+.footer h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 0;
 }
 
 .footer a {
@@ -505,9 +518,12 @@ p {
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 20px;
   margin: 0;
-  color: #606060;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #343945;
+  letter-spacing: -1px;
 }
 
 .size-20 {
@@ -562,7 +578,6 @@ h6 {
 
 ul,
 ol {
-  letter-spacing: 0.5px;
 }
 
 .abs-link {
@@ -582,7 +597,7 @@ ol {
 
 .abs-header {
   position: fixed;
-  width: 22%;
+  width: 30%;
   left: 0;
   margin: 8%;
   margin-bottom: 0;
@@ -603,8 +618,18 @@ ol {
   display: inline-block !important;
   padding-left: 34px;
   margin-top: 0px;
+  width: 71%;
   color: #444;
   letter-spacing: 0.5px;
+  line-height: 150% !important;
+}
+
+.abt-desc {
+  display: inline-block !important;
+  padding-left: 34px;
+  margin-top: 0px;
+  color: #444;
+  width: 80%;
   line-height: 150% !important;
 }
 
@@ -620,4 +645,18 @@ ol {
 .popup a:hover {
   background: #f3f3f3;
   color: #444;
+}
+
+.fake-link {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 15px;
+  width: 200px;
+}
+
+.fake-link:hover {
+  cursor: pointer;
+  background: #f3f3f3;
+  color: #888;
 }
