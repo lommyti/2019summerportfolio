@@ -23,13 +23,11 @@ class BTPopup extends Component {
               onClick={this.props.nextHandler}
               className="fake-link m-right-5"
             >
-              🠘
-              <br /> NEXT CASE STUDY:
+              NEXT CASE STUDY:
               <br />
               AIRBNB
             </h6>
             <h6 onClick={this.props.prevHandler} className="fake-link">
-              🠚 <br />
               PREVIOUS CASE STUDY:
               <br />
               NU KNIGHT LAB

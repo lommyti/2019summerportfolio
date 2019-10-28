@@ -54,18 +54,17 @@ class AirbnbPopup extends Component {
           <h6>Context</h6>
           <p className="m-0 m-bottom-0">
             Through investigating Airbnb hosts’ problems with guests traveling
-            with pets, we found that recurring issues with their ability to
-            ensure the safety of their listings interfered with making hosting
-            pets a gratifying experience. We used a combination of interviews,
-            surveys, and analysis of the Airbnb community forums to validate
-            these problems and find a solution in{" "}
+            with pets, we found that it was difficult to make hosting pets a
+            gratifying experience. We used a combination of interviews, surveys,
+            and analysis of the Airbnb community forums to validate these
+            problems and find a solution in{" "}
             <strong>
               a nightly pet fee, dependent on the number of pets, charged at
               time of payment
             </strong>
             . After communicating with product specialists and researchers, we
             proposed this as a solution combined with exploratory visions for a
-            pet profile to the overall Airbnb Experience Research team.
+            pet profile to the Airbnb Experience Research team.
           </p>
         </div>
 
@@ -73,19 +72,17 @@ class AirbnbPopup extends Component {
           <h6>🤸</h6>
         </div>
         <div className="w-50 p-top-5 mobile-w-100 mobile-padding-0">
-          <p className="m-0">
-            <h6>My Role</h6>I worked with two other students to put this project
-            together: my individual contributions included creating and
+          <p className="m-0 m-bottom-5">
+            <h6>My Role</h6>My individual contributions included creating and
             distributing a survey to 23 Airbnb hosts over various platforms,
             visual design for presentation materials, and initial UI mockups
             created in Figma.
           </p>
         </div>
+
         <div className="w-80 p-10 p-top-5 p-right-2 p-bottom-0 align-left mobile-w-100 mobile-p-10">
           <h6>
-            How might we turn an Airbnb host's process for accepting guests who
-            travel with their pets into a joyful and clearly outlined
-            experience?
+            How might we help Airbnb hosts to easily accept pet travelers?
           </h6>
         </div>
         <br />
@@ -95,13 +92,14 @@ class AirbnbPopup extends Component {
         <div className="w-50 p-top-5 mobile-w-100 mobile-padding-0">
           <p className="m-0 m-bottom-5">
             <h6>Design Process</h6>
-            As a team, we found that pet owners were a market of opportunity for
-            problem-solving within Airbnb: they’re prioritized in the search and
-            navigation process with a “Pets Allowed” filter, but the care for
-            the experience of pet travelers ends there. Considering the
-            experience of Airbnb has barely begun when guests are searching for
-            listings, there are still many touch points at which a guest
-            interested in traveling with their pet might encounter friction.
+            As a team, we discovered that pet owners were a market of
+            opportunity for problem-solving within Airbnb: they’re prioritized
+            in the search and navigation process with a “Pets Allowed” filter,
+            but the care for the experience of pet travelers ends there.
+            Considering the experience of Airbnb has barely begun when guests
+            are searching for listings, there are still many touch points at
+            which a guest interested in traveling with their pet might encounter
+            friction.
           </p>{" "}
           <strong>
             <h5>From Travelers to Hosts</h5>
@@ -125,15 +123,13 @@ class AirbnbPopup extends Component {
           />
           <p className="m-0 m-bottom-5">
             To dig deeper in understanding hosts, we sent out a survey by across
-            forums and Facebook groups to get a sense of the landscape and their
-            attitudes towards pets. In follow-up phone interviews, three hosts
-            recounted for us the ways that they had created their own solutions
-            to feeling safe and secure in accepting travelers with pets. We
-            found that Airbnb hosts had to go through a manual process to ask
-            guests if they were planning on bringing pets, and that many of them
-            had already opted to collect a pet fee or deposit through the same
-            process that they would use to collect damages (the Airbnb
-            Resolution Center).{" "}
+            forums and Facebook groups to get a sense of their attitudes towards
+            pets. In follow-up phone interviews, three hosts recounted for us
+            the ways that they had created their own solutions to feeling safe
+            and secure in accepting travelers with pets. We found that Airbnb
+            hosts had to go through a manual process to ask guests if they were
+            planning on bringing pets, and that many of them had already opted
+            to collect a pet fee or deposit.{" "}
           </p>
           <img
             src="/img/petquotes2.png"
@@ -142,13 +138,13 @@ class AirbnbPopup extends Component {
           />
           <p className="m-0">
             However, before deciding that a one-time, flat pet fee was the
-            solution to all of these problems, we needed to think about edge
-            cases. Airbnb hosts vary significantly in their involvement and in
-            the ways that they value their spaces: from live-in hosts who would
-            love to host pets and empathize with the frustrations that can come
-            with pet travel, to hosts who make their living on Airbnb and are
-            already thinking about the extra cleaning fees they'll have to pay
-            to prep for the next guest. &nbsp;
+            solution to all of these problems, we tried to consider edge cases.
+            Our research showed that Airbnb hosts vary significantly in their
+            involvement and in the ways that they value their spaces: from
+            live-in hosts who would love to host pets and empathize with the
+            frustrations that can come with pet travel, to hosts who make their
+            living on Airbnb and are already thinking about the extra cleaning
+            fees they'll have to pay to prep for the next guest. &nbsp;
             <strong>
               Though we often thought about cases where a single pet would be on
               vacation for a few days, accounts of multiple pets coming to stay
@@ -164,9 +160,8 @@ class AirbnbPopup extends Component {
               className="p-top-0 mobile-w-100 mobile-m-l-0"
             />
             <br />
-            This, combined with a series of questions in our survey asking hosts
-            to compare different types of pet fees and deposits, led us to
-            believe that{" "}
+            This, combined with a series of survey questions asking hosts to
+            compare different fees / deposits, led us to believe that{" "}
             <strong>
               a nightly fee dependent on the number of pets made the most sense.{" "}
             </strong>
@@ -178,27 +173,27 @@ class AirbnbPopup extends Component {
           />
           <p className="m-0 m-bottom-5">
             Providing hosts security by allowing them to collect it at the time
-            of payment (rather than waiting for the guest to accept the payment
-            on the Resolution Center) and suggesting to incorporate this into
-            the regular payment flow would make our suggestions significantly
-            more valuable than the existing workaround systems. And in talking
-            to Airbnb, we found that this solution had the added bonus of
-            relieving traffic to the Resolution Center, where pet fee requests
-            were already one of the most popular types of transactions.{" "}
+            of payment would make our suggestion significantly more valuable
+            than existing workarounds. And in talking to Airbnb, we found that
+            this solution had the added bonus of relieving traffic to the
+            Resolution Center, where pet fee requests were already one of the
+            most popular types of transactions.{" "}
           </p>
+          <p className="m-0 m-bottom-10">
+            This pet fee system showed promise, but in reflecting on our goals
+            of making this both informative and joyful, we felt like the process
+            remained <strong>impersonal</strong>.{" "}
+          </p>{" "}
+          <strong>
+            <h5>Creating a Pet Profile</h5>
+          </strong>
           <p className="m-0 m-bottom-5">
-            This pet fee advancement showed promise, but in reflecting on our
-            goals of making this both informative and joyful, we felt like the
-            process remained <strong>impersonal</strong>.{" "}
-          </p>
-          <p className="m-0 m-bottom-5">
-            To add to the goal of making it a more empathetic process, we built
-            out some initial mockups for a pet profile to see what it would look
-            like for guests to provide information about their pets as well.
-            This was a visionary part of the project that showed more of what
-            this project could look like as something implementable on the
-            Airbnb platform, and gave us a chance to plaster dog pictures all
-            around our project too!
+            To add to our goal of making it a more empathetic process, we built
+            out initial mockups for a pet profile to visualize the process of
+            guests adding pets as well. This was a visionary part of the project
+            that showed more of what this could look like implemented on the
+            Airbnb platform, and gave us a chance to plaster dog pictures
+            everywhere too!
           </p>
           <img
             src="/img/petprofile1.jpg"
@@ -223,6 +218,11 @@ class AirbnbPopup extends Component {
         <div className="w-50 p-top-5 mobile-w-100 mobile-padding-0">
           <p className="m-0 m-bottom-5">
             <h6>Results</h6>
+            <img
+              src="/img/airbnbflow.jpg"
+              width="125%"
+              className="p-top-2 p-bottom-2 mobile-w-100 mobile-m-l-0"
+            />
             This solution was developed with the needs of Airbnb hosts in mind,
             so our success metric for the project was contingent on host buy-in.
             By the end of the project we heard that{" "}
@@ -240,7 +240,6 @@ class AirbnbPopup extends Component {
         </div>
         <div className="w-80 m-10 m-bottom-2 m-top-2 p-10 p-top-5 align-center p-bottom-0 mobile-w-80 mobile-m-0">
           <h6 onClick={this.props.prevHandler} className="fake-link">
-            🠚 <br />
             PREVIOUS CASE STUDY:
             <br />
             BRAINTREE

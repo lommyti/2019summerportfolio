@@ -335,8 +335,7 @@ class FCFPopup extends Component {
         </div>
         <div className="w-80 m-10 m-bottom-2 m-top-2 p-10 p-top-5 align-center p-bottom-0 mobile-w-80 mobile-m-0">
           <h6 onClick={this.props.nextHandler} className="fake-link m-right-5">
-            🠘
-            <br /> NEXT CASE STUDY:
+            NEXT CASE STUDY:
             <br />
             BRAINTREE
           </h6>
