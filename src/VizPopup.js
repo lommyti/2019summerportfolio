@@ -14,6 +14,21 @@ class VizPopup extends Component {
             done in the past!
           </p>
           <div class="row">
+            <div class="row">
+              <div class="column">
+                <img src="/img/day2.png" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="/img/day5.png" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="/img/day1.png" />
+              </div>
+            </div>
             <div class="column _33">
               <img src="/img/weather1.png" />
             </div>
